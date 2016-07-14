@@ -1,5 +1,7 @@
 # passwordless-cache-manager
 
+[![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](http://standardjs.com) [![Build Status](https://travis-ci.org/theogravity/passwordless-cache-manager.svg?branch=master)](https://travis-ci.org/theogravity/passwordless-cache-manager) [![npm version](https://badge.fury.io/js/passwordless-cache-manager.svg)](https://badge.fury.io/js/passwordless-cache-manager)
+
 A token store for [Passwordless](https://github.com/florianheinemann/passwordless), a node.js module for express that allows website authentication without password using verification through email or other means. 
 
 This store implementation uses [node-cache-manager](https://github.com/BryanDonovan/node-cache-manager), which supports [multiple storage engines](https://github.com/BryanDonovan/node-cache-manager#store-engines).
