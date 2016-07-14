@@ -1,0 +1,39 @@
+{
+  "name": "passwordless-cache-manager",
+  "version": "1.0.0",
+  "description": "Use node-cache-manager as a passwordless token store",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec --timeout 20000 && standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theogravity/passwordless-cache-manager.git"
+  },
+  "keywords": [
+    "tokenstore",
+    "password-less",
+    "no-password",
+    "nopassword",
+    "passwordless"
+  ],
+  "author": "Theo Gravity <theo@suteki.nu>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/theogravity/passwordless-cache-manager/issues"
+  },
+  "homepage": "https://github.com/theogravity/passwordless-cache-manager#readme",
+  "dependencies": {
+    "bcryptjs": "~2.3.0",
+    "passwordless-tokenstore": "0.0.10"
+  },
+  "devDependencies": {
+    "cache-manager": "2.1.2",
+    "chai": "3.5.0",
+    "chance": "1.0.3",
+    "mocha": "2.5.3",
+    "node-uuid": "1.4.7",
+    "passwordless-tokenstore-test": "0.1.4",
+    "standard": "7.1.2"
+  }
+}
