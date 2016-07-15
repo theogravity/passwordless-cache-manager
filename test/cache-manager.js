@@ -24,7 +24,7 @@ function afterEachTest (done) {
   done()
 }
 
-standardTests(TokenStoreFactory, beforeEachTest, afterEachTest)
+standardTests(TokenStoreFactory, beforeEachTest, afterEachTest, 450)
 
 describe('Specific tests', function () {
   beforeEach(beforeEachTest)

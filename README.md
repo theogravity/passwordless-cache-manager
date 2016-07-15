@@ -61,6 +61,12 @@ As the tokens are equivalent to passwords (even though they do have the security
 
 `$ npm test`
 
+## Debugging
+
+The `debug` module is used to log debug statements. It can be enabled via the environment variable:
+
+`DEBUG=passwordless-cache-manager`
+
 ## License
 
 [MIT License](http://opensource.org/licenses/MIT)
